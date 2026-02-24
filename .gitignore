@@ -25,3 +25,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Claude 로컬 설정 (개인용, 커밋 제외)
+CLAUDE.local.md
