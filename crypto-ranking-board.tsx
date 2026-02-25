@@ -96,7 +96,7 @@ const mockCoinData: CoinData[] = [
   },
 ]
 
-function formatNumber(num: number): string {
+export function formatNumber(num: number): string {
   if (num >= 1e12) {
     return `$${(num / 1e12).toFixed(2)}T`
   }
@@ -112,7 +112,7 @@ function formatNumber(num: number): string {
   return `$${num.toFixed(2)}`
 }
 
-function formatPrice(price: number): string {
+export function formatPrice(price: number): string {
   if (price >= 1) {
     return `$${price.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`
   }

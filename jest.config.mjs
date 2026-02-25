@@ -1,4 +1,4 @@
-import { pathsToModuleNameMapper } from '@unrs/resolver';
+import { pathsToModuleNameMapper } from 'ts-jest';
 import { readFileSync } from 'fs';
 
 const tsConfig = JSON.parse(readFileSync('./tsconfig.json', 'utf8'));
@@ -15,18 +15,19 @@ const config = {
   transform: {
     '^.+\\.(ts|tsx)$': ['ts-jest', {
       tsconfig: {
-        jsx: 'react'
+        jsx: 'react-jsx'
       }
     }]
   },
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
   collectCoverageFrom: [
-    '**/*.{js,jsx,ts,tsx}',
+    'crypto-ranking-board.tsx',
+    'app/**/*.{ts,tsx}',
+    'lib/**/*.{ts,tsx}',
     '!**/*.d.ts',
     '!**/node_modules/**',
     '!**/.next/**',
-    '!**/coverage/**',
-    '!**/jest.config.mjs'
+    '!**/coverage/**'
   ]
 };
 
