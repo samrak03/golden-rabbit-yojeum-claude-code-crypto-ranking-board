@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1772009684898" clover="3.2.0">
+  <project timestamp="1772009684898" name="All files">
+    <metrics statements="32" coveredstatements="28" conditionals="20" coveredconditionals="19" methods="7" coveredmethods="6" elements="59" coveredelements="53" complexity="0" loc="32" ncloc="32" packages="3" files="4" classes="4"/>
+    <package name="golden-rabbit-yojeum-claude-code-crypto-ranking-board">
+      <metrics statements="21" coveredstatements="21" conditionals="20" coveredconditionals="19" methods="4" coveredmethods="4"/>
+      <file name="crypto-ranking-board.tsx" path="/mnt/d/GitHub/golden-rabbit-yojeum-claude-code-crypto-ranking-board/crypto-ranking-board.tsx">
+        <metrics statements="21" coveredstatements="21" conditionals="20" coveredconditionals="19" methods="4" coveredmethods="4"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="99" count="2" type="stmt"/>
+        <line num="100" count="454" type="cond" truecount="2" falsecount="0"/>
+        <line num="101" count="2" type="stmt"/>
+        <line num="103" count="452" type="cond" truecount="2" falsecount="0"/>
+        <line num="104" count="420" type="stmt"/>
+        <line num="106" count="32" type="cond" truecount="2" falsecount="0"/>
+        <line num="107" count="28" type="stmt"/>
+        <line num="109" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="110" count="2" type="stmt"/>
+        <line num="112" count="2" type="stmt"/>
+        <line num="115" count="2" type="stmt"/>
+        <line num="116" count="226" type="cond" truecount="2" falsecount="0"/>
+        <line num="117" count="169" type="stmt"/>
+        <line num="119" count="57" type="stmt"/>
+        <line num="122" count="2" type="stmt"/>
+        <line num="123" count="28" type="stmt"/>
+        <line num="150" count="224" type="stmt"/>
+      </file>
+    </package>
+    <package name="golden-rabbit-yojeum-claude-code-crypto-ranking-board.app">
+      <metrics statements="7" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="layout.tsx" path="/mnt/d/GitHub/golden-rabbit-yojeum-claude-code-crypto-ranking-board/app/layout.tsx">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+      </file>
+      <file name="page.tsx" path="/mnt/d/GitHub/golden-rabbit-yojeum-claude-code-crypto-ranking-board/app/page.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="golden-rabbit-yojeum-claude-code-crypto-ranking-board.lib">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="utils.ts" path="/mnt/d/GitHub/golden-rabbit-yojeum-claude-code-crypto-ranking-board/lib/utils.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="344" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
